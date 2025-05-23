@@ -11,7 +11,7 @@ body{
 
 @font-face {
     font-family: 'Barlow';
-    src: url('./testimonial-site-props/fonts/BarlowSemiCondensed-Medium.ttf') format('truetype');
+    src: url('testimonial-site-props/fonts/BarlowSemiCondensed-Medium.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -26,24 +26,6 @@ body{
     grid-template-rows: repeat(5, auto);
     gap: 1.6rem
 }
-/* .testimonial-grid{
-    width: 75%;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1.3rem;
-    margin-inline: auto;
-}
-
-.grid-col-span-2 {
-    grid-column: span 2
-}
-
-.testimonial:last-child{
-    grid-column: 4;
-    grid-row: 1; 
-    grid-row: 1 / span 2;
-} */
-
 .testimonial{
     position: relative;
     padding: 2rem;
